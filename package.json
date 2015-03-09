@@ -1,0 +1,25 @@
+{
+  "name": "semaphore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel index.js | node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davidgruebl/semaphore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidgruebl/semaphore/issues"
+  },
+  "homepage": "https://github.com/davidgruebl/semaphore",
+  "dependencies": {
+    "async": "^0.9.0",
+    "babel": "^4.7.3",
+    "lodash": "^3.5.0",
+    "node-geocoder": "^2.16.1"
+  }
+}
